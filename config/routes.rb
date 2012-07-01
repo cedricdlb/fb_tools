@@ -1,4 +1,6 @@
 FbTools::Application.routes.draw do
+  get "likes/shared_with_friends"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
